@@ -108,14 +108,21 @@
     flex-direction: column;
     justify-content: center;
     padding: 0 20px;
-    text-align: center;
+    
     position: relative;
+}
+.banner__data i {
+    margin-top: 3px;
+    font-size: 20px;
 }
 .banner__data strong{
     font-family: "SF-Pro-Text-Bold";
+    font-size: 20px;
 }
 .banner__data small{
     font-family: "SF-Pro-Text-Regular";
+    color: grey;
+    margin-top: 0.3rem;
 }
 .banner__close{
     position: absolute;
@@ -127,6 +134,10 @@
     top: 5px;
     right: 10px;
     border-radius: 100%;
+}
+.carusel__title h3{
+    font-size: 25px;
+    font-family: "SF-Pro-Text-Bold";
 }
 .banner__more{
     margin-top: 10px;
