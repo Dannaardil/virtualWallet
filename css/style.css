@@ -126,8 +126,8 @@
     height: 80%;
 }
 .grafic img{
-    width: 90%;
-    height: 60%;
+    width: 100vh;
+    height: 200px;
     inset: 0;
     margin: auto;
     object-fit: contain;
@@ -139,10 +139,13 @@
     width: 100%;
     height: 17vh;
     margin-top: 0.2rem;
-    background: #e3faee;;
+    background:var(--color-cuarto);
     justify-content: space-between;
     position: relative;
     
+}
+.card1{
+    border-radius: 30px;
 }
 .card1 img{
     width: 30%;
@@ -151,6 +154,7 @@
     position: absolute;
     bottom: 10px;
     left: 20px;
+   
 
 }
 
