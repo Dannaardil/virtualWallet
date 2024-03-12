@@ -55,7 +55,7 @@
     display: flex;
     flex-direction: column;
     text-transform:  capitalize;
-    color: var(--color-ternario);
+    color: var(--color-cuarto-rosa);
 }
 .profile__titule h3{
     font-size: 2em;
@@ -73,7 +73,7 @@
     flex-direction: row;
     justify-content: space-between;
     gap: 20px;
-    color: var(--color-ternario);
+    color: var(--color-cuarto-rosa);
 }
 
 .profile__savings, .profile__assets{
@@ -101,13 +101,13 @@
 }
 
 .profile__savings progress[value] {
-    --color: var(--color-primary);
-    --background: var(--color-ternario);
+    color: var(--color-cuarto-rosa);
+    --background: var(--color-cuarto-rosa);
     background: var(--background);
 }
 
 .profile__assets progress[value] {
-    --color: var(--color-cuarto);
+    --color: var(--color-cuarto-rosa);
     --background: var(--color-ternario);
     background: var(--background);
 }
@@ -142,7 +142,7 @@ progress[value]::-moz-progress-bar {
 
 .activities__title h3,
 .transactions__title h3{
-    background: olive;
+    
     font-size: 1.4rem;
     text-transform: capitalize;
     font-family: "SF-pro-Text-Bold";
@@ -160,6 +160,8 @@ progress[value]::-moz-progress-bar {
     justify-content: center;
     gap: 10px;
     margin: 15px 0;
+    border-radius: 20px;
+   background-color: var(--color-cuarto-rosa);
 }
 
 .activities__carusel__img {
@@ -187,6 +189,7 @@ progress[value]::-moz-progress-bar {
 
 .activities__carusel__img i {
     font-size: 2.5em;
+    color: var(--color-cuarto-rosa);
 }
 
 .activities__carusel__img h4 {
@@ -225,6 +228,8 @@ progress[value]::-moz-progress-bar {
     display: flex;
     align-items: center;
     gap: 10px;
+    
+    
 }
 
 .transactions__up,
@@ -233,7 +238,7 @@ progress[value]::-moz-progress-bar {
     justify-content: center;
     align-content: center;
     width: 40px;
-    color: var(--color-primary);
+    color: var(--color-cuarto-rosa);
 }
 
 .transactions__down{
@@ -242,6 +247,7 @@ progress[value]::-moz-progress-bar {
 
 .transactions__description i{
     font-size: 1.8em;
+
 }
 
 
@@ -255,7 +261,7 @@ progress[value]::-moz-progress-bar {
 
 .transactions__description div small,
 .transactions__value small{
-    color: var(--color-cuarto);
+    color: var(--color-cuarto-rosa);
     font-family: "SF-Pro-Text-Light";
     text-transform: capitalize;
 }
