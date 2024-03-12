@@ -20,8 +20,10 @@ font-face {
 }
 :root{
     --color-primary: #00DDA3;
-    --color-secundary: #33404F;
+    --color-secundary: #FFE2E2;
     --color-ternario: #fff;
+    --color-cuarto-rosa: #FF72A5;
+
     --color-cuarto:#B5C5C3;
     --color-cuaternario:gray;
     --color-shadow-transparent:0px 0px 10px rgba(0, 0, 0, 0.216)
